@@ -1,9 +1,11 @@
 import ImageGenerator from "./components/ImageGenerator";
 
 function App() {
-  <>
-    <ImageGenerator />
-  </>;
+  return (
+    <div>
+      <ImageGenerator />
+    </div>
+  );
 }
 
 export default App;
